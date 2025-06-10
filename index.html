@@ -3,9 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
+    <title>viewer's site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <h1>This is my website!</h1>
+    <div id="content">
+    <h1 class="header">This is my website!</h1>
+    <div id="links">
+        <button onclick="openYT();">YouTube</button>
+        <button onclick="openGH();">GitHub</button>
+    </div>
+    <div id="yt" class="vertical prompt">
+        <h1 class="header popuptext">You're leaving my site to go to https://youtube.com/@viewer_the_twelth. Continue?</h1>
+        <div class="row">
+            <button onclick="gotoYt();">Visit site</button>
+            <button onclick="cancelYt();">Cancel</button>
+        </div>
+    </div>
+    <div id="gh" class="vertical prompt">
+        <h1 class="header popuptext">You're about to leave my site to go to https://github.com/Velcro3. Continue?</h1>
+        <div class="row">
+            <button onclick="gotoGh();">Visit site</button>
+            <button onclick="cancelGh();">Cancel</button>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
