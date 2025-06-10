@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-image: linear-gradient(to top right, #005004 0%, black 15%, black 85%, #002064);
+    min-height: 100vh;
+    min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100
+    ;
+}
+#day {
+    font-weight: 700;
+    font-size: xx-large;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.calendar-weekdays,
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-weekdays div {
+    font-weight: bold;
+    color: #555;
+}
+
+.calendar-days div {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.calendar-days .current-day {
+    background-color: #007bff;
+    color: white;
+}
+
+.calendar-days .empty-day {
+    background-color: transparent;
+    cursor: default;
+}
+
+.calendar-days .greyed-out {
+    background-color: #f9f9f9;
+    color: #ccc;
+    cursor: default;
+}
+html, body { /* Apply to both html and body for full control */
+    height: 100%; /* Ensure they take up the full height of the viewport */
+    width: 100%;  /* Ensure they take up the full width of the viewport */
+    overflow: hidden; /* This is the key property to prevent scrolling */
+    margin: 0;        /* Remove default margins */
+    padding: 0;       /* Remove default padding */
+}
