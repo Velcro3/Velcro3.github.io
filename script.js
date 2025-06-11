@@ -1,5 +1,6 @@
 const ytBox = document.getElementById("yt")
 const ghBox = document.getElementById("gh")
+const creditsModal = document.getElementById("credits");
 function openYT() {
 ytBox.classList = "vertical promptOpen"
 }
@@ -17,4 +18,10 @@ function gotoGh() {
 }
 function cancelGh() {
     ghBox.classList = "vertical prompt"
+}
+function openCreditsModal() {
+    creditsModal.classList = "vertical promptOpen"
+}
+function closeCreditsModal() {
+    creditsModal.classList = "vertical prompt"
 }
