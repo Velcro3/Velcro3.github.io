@@ -19,12 +19,21 @@
             <hr id="break">
             <p>Choose a link to go to that site.</p>
             <div class="row">
-                <p class="tab">YouTube</p>
-                <p class="tab">GitHub</p>
+                <p class="tab" onclick="ytModalOpen();">YouTube</p>
+                <p class="tab" onclick="ghModlaOpen();">GitHub</p>
             </div>
         </div>
         <p class="badge">Made by Planet.</p>
         
+    </div>
+    <div id="ytmodal" class="prompt">
+        <h1>Hold it!</h1>
+        <hr id="break">
+        <p>You're leaving to go to https://youtube.com/@viewer_the_twelth. Continue?</p>
+        <div class="row">
+            <p class="tab" onclick="gotoYt();">Visit site</p>
+            <p class="tab" onclick="cancelYt();">Stay here</p>
+        </div>
     </div>
 </body>
 </html>
