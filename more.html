@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viewer's site</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="more.js" defer></script>
+</head>
+<body>
+    <div id="content">
+        <div id="tabs">
+            <p class="tab" onclick="openHome();">Home</p>
+            <p class="tab" onclick="openLinks();">Links</p>
+            <p class="tabon">More</p>
+        </div>
+        <div id="page">
+            <h1 class="header">More</h1>
+            <hr id="break">
+            <p>Choose one of the below options.</p>
+            <p class="tab" onclick="openCreditsModal();">Credits</p>
+        </div>
+        <p class="badge">Made by Planet.</p>
+        <div class="prompt" id="credits">
+            <h1>Credits</h1>
+            <hr id="break">
+            <p>This website uses the Roboto Flex font from Google Fonts.</p>
+            <div class="row">
+                <p class="tab" onclick="openGfonts();">Open Google Fonts</p>
+                <p class="tab" onclick="closeCreditsModal();">Close</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

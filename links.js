@@ -3,6 +3,9 @@ let ghModal = document.getElementById("ghmodal")
 function openHome() {
     window.location.href = "index.html"
 }
+function openMore() {
+    window.location.href = "more.html"
+}
 function ytModalOpen() {
     ytModal.classList = "promptOpen"
 }
