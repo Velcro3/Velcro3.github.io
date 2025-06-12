@@ -9,36 +9,16 @@
 </head>
 <body>
     <div id="content">
-    <h1 class="header">This is my website!</h1>
-    <h2 class="header">Links</h2>
-    <div id="links">
-        <button onclick="openYT();">YouTube</button>
-        <button onclick="openGH();">GitHub</button>
-    </div>
-    <h2 class="header">More</h2>
-    <div id="more">
-        <button onclick="openCreditsModal();">Credits</button>
-    </div>
-    <div id="yt" class="vertical prompt">
-        <h1 class="header popuptext">You're leaving my site to go to https://youtube.com/@viewer_the_twelth. Continue?</h1>
-        <div class="row">
-            <button onclick="gotoYt();">Visit site</button>
-            <button onclick="cancelYt();">Cancel</button>
+        <div id="tabs">
+            <p class="tab">Home</p>
+            <p class="tab">Links</p>
+            <p class="tab">Other</p>
         </div>
-    </div>
-    <div id="gh" class="vertical prompt">
-        <h1 class="header popuptext">You're about to leave my site to go to https://github.com/Velcro3. Continue?</h1>
-        <div class="row">
-            <button onclick="gotoGh();">Visit site</button>
-            <button onclick="cancelGh();">Cancel</button>
+        <div id="page">
+            <h1 class="header">Home</h1>
+            <hr id="break">
+            <p>Choose one of the tabs to continue.</p>
         </div>
-    </div>
-    <div id="credits" class="vertical prompt">
-        <h1 class="header">This webpage uses the Roboto Flex font from Google.</h1>
-        <div class="row">
-            <button onclick="closeCreditsModal();">Close</button>
-        </div>
-    </div>
     </div>
 </body>
 </html>
