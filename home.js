@@ -4,3 +4,6 @@ function openLinks() {
 function openMore() {
     window.location.href = "more.html"
 }
+function openProjects() {
+    window.location.href = "projects.html"
+}
