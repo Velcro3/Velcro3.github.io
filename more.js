@@ -18,3 +18,6 @@ function openGfonts() {
     window.location.href = "https://fonts.google.com"
 
 }
+function koFi() {
+    window.location.href = "https://ko-fi.com/viewer27272"
+}
