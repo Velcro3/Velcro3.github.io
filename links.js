@@ -6,6 +6,9 @@ function openHome() {
 function openMore() {
     window.location.href = "more.html"
 }
+function openProjects() {
+    window.location.href = "projects.html"
+}
 function ytModalOpen() {
     ytModal.classList = "promptOpen"
 }
@@ -23,4 +26,5 @@ function gotoGh() {
 }
 function cancelGh() {
     ghModal.classList = "prompt"
+
 }
