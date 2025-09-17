@@ -5,6 +5,9 @@ function openHome() {
 function openLinks() {
     window.location.href = "links.html"
 }
+function openProjects() {
+    window.location.href = "projects.html"
+}
 function openCreditsModal() {
     creditsModal.classList = "promptOpen"
 }
@@ -13,4 +16,5 @@ function closeCreditsModal() {
 }
 function openGfonts() {
     window.location.href = "https://fonts.google.com"
+
 }
