@@ -16,7 +16,7 @@ const lightColor = '#005ea2';
   }
 
   // Initialize on page load
-  updateThemeColor();
+  updateThemeColorr();
 
   // Listen for system theme changes
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateThemeColor);
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateThemeColorr);
